@@ -1,0 +1,43 @@
+<section id="login" class="login">
+  <button id="themeToggle" class="theme-toggle" type="button" aria-pressed="false">
+    <span id="themeIcon" aria-hidden="true">☾</span>
+    <span id="themeLabel">Dark mode</span>
+  </button>
+  <div class="login-content">
+    <section class="login-story" aria-labelledby="loginHeadline">
+      <p class="eyebrow">A STRONGER ROUTINE STARTS HERE</p>
+      <h2 id="loginHeadline">Small steps.<br>Stronger days.</h2>
+      <p class="login-message">Make a little time for yourself today. Your progress is built one good session at a time.</p>
+      <div class="workout-gallery" aria-label="A look inside FitZone">
+        <article class="photo-card">
+          <img src="assets/images/gym-interior.jpg" alt="Bright, fully equipped gym floor" fetchpriority="high">
+          <div class="photo-caption"><span>YOUR SPACE</span><strong>Find your rhythm</strong></div>
+        </article>
+        <article class="photo-card">
+          <img src="assets/images/strength-training.jpg" alt="Athlete focused on a strength workout" fetchpriority="high">
+          <div class="photo-caption"><span>YOUR PACE</span><strong>Get stronger daily</strong></div>
+        </article>
+      </div>
+      <p class="login-quote">“The best project you’ll ever work on is you.”</p>
+    </section>
+    <form id="loginForm" class="card login-card" novalidate>
+      <div class="login-card-heading">
+        <span class="brand-mark" aria-hidden="true">F</span>
+        <div>
+          <h1>Welcome to FitZone</h1>
+          <p class="muted">Your fitness, all in one place.</p>
+        </div>
+      </div>
+      <label for="email">Email</label>
+      <input id="email" type="email" autocomplete="username" value="admin@fitzone.demo">
+      <label for="pw">Password</label>
+      <div class="row">
+        <input id="pw" type="password" autocomplete="current-password" value="Admin123">
+        <button type="button" id="togglePw" class="ghost">Show</button>
+      </div>
+      <p id="loginMsg" class="err" role="alert"></p>
+      <button class="btn">Sign in</button>
+      <p class="muted small demo-note">Demo credentials: admin@fitzone.demo / Admin123</p>
+    </form>
+  </div>
+</section>
