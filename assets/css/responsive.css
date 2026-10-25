@@ -1,0 +1,93 @@
+@media (max-width: 760px) {
+  .login {
+    padding: 88px 22px 36px;
+  }
+
+  .login-content {
+    max-width: 480px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .login-story h2 {
+    font-size: clamp(40px, 10vw, 56px);
+  }
+
+  .login-message {
+    margin-bottom: 18px;
+    font-size: 15px;
+  }
+
+  .workout-gallery {
+    gap: 10px;
+  }
+
+  .photo-card {
+    aspect-ratio: 1.45;
+  }
+
+  .login-card {
+    max-width: none;
+  }
+
+  #app {
+    grid-template-columns: 1fr;
+  }
+
+  aside {
+    position: static;
+    height: auto;
+    padding: 16px 14px 10px;
+    border-right: 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  aside h2 {
+    margin: 0 0 12px 8px;
+    font-size: 23px;
+  }
+
+  nav {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  nav button {
+    width: auto;
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  main {
+    padding: 22px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login {
+    padding: 82px 16px 24px;
+  }
+
+  .theme-toggle {
+    top: 18px;
+    right: 16px;
+  }
+
+  .login-card {
+    padding: 23px;
+  }
+
+  .photo-caption {
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .card {
+    padding: 17px;
+  }
+
+  .tools > * {
+    min-width: 100%;
+  }
+}
